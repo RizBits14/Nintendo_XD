@@ -25,9 +25,35 @@ welcome_page_line_17 db 10,13, 'Enter which game you want to play: $'
 
 ;Datas For Invalid Input While Choosing the Game Data
 
+invalid_input_line db 10,13, 'Invalid Input! Press Any Key To Restart...'
+
 ;Newline Data
 
+newline db 10,13, '$'
+
 ;Wordle Game Data
+
+wordle_word_array db 'BIRD'
+                  db 'CODE'
+                  db 'HEAD'
+                  db 'ROSE'
+                  db 'FROG'
+                  db 'BARK'
+                  db 'HAND'
+                  db 'SAND'
+                  db 'TIME'
+                  db 'EYES'
+                  db 'LONG'
+                  db 'GOOD'
+                  db 'FOOD'
+                  db 'ICON'
+                  db 'GIVE'
+                  db 'DAWN'
+                  db 'LAND'
+                  db 'READ'
+                  db 'COIN'
+                  db 'BANK'
+                  db 'DAMN'
 
 ;Wordle Rules Data
 
