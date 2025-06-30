@@ -17,6 +17,11 @@ welcome_page_line_9  db 10,13, '                           *********************
 welcome_page_line_10 db 10,13, '                           _____________________________________$'
 welcome_page_line_11 db 10,13, '$'
 welcome_page_line_12 db 10,13, 'Here you can play 2 games. Please give input accordingly:$'
+welcome_page_line_13 db 10,13, '$'
+welcome_page_line_14 db 10,13, 'Press 1 to play Wordle Ultimate$'
+welcome_page_line_15 db 10,13, 'Press 2 to play Rock/Paper/Scissors$'
+welcome_page_line_16 db 10,13, '$'
+welcome_page_line_17 db 10,13, 'Enter which game you want to play: $'
 
 ;Datas For Invalid Input While Choosing the Game Data
 
