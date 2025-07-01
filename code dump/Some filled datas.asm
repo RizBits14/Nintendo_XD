@@ -66,7 +66,13 @@ wordle_guess_count      db 0
 
 ;Wordle Rules Data
 
-
+wordle_rule_msg db 10,13, '*** Rules of the Game ***$'
+wordle_rule_1 db 10,13, 'You need to guess the correct word.$'
+wordle_rule_2 db 10,13, 'Here:$'
+wordle_rule_3 db 10,13, '- means wrong letters$'
+wordle_rule_4 db 10,13, '+ means right letter wrong position$'
+wordle_rule_5 db 10,13, '* means right letter right position$'
+wordle_rule_6 db 10,13, 'You have unlimitate guesses. Have Fun!$'
 
 ;Rock Paper Scissors Game Data
 
