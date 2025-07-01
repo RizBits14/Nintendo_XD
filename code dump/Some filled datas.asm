@@ -1,4 +1,4 @@
-                                               .model large
+.model large
 .stack 1000h
 
 .data
