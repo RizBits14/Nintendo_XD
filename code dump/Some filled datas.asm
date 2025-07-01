@@ -76,6 +76,30 @@ wordle_rule_6 db 10,13, 'You have unlimitate guesses. Have Fun!$'
 
 ;Rock Paper Scissors Game Data
 
+rps_prompt_msg     db 'Enter R/P/S or 1/2/3 for Rock/Paper/Scissors respectively: $'
+rps_win_msg        db 'You have won$'
+rps_lose_msg       db 'You have lost$'
+rps_tie_msg        db 'It is a tie$'
+rps_invalid_msg    db 'Invalid choice! Only Use R/P/S or 1/2/3$'
+rps_you_chose      db 'Enter your move: $'
+rps_computer_chose db 'Computer has choosen: $'
+rps_choices        db 'Rock$Paper$Scissors$'
+rps_rounds         db 0
+rps_current_round  db 1
+rps_player_wins    db 0
+rps_computer_wins  db 0
+rps_rounds_msg     db 'Enter the number of rounds you want to play (1-9): $'
+rps_final_msg      db 'Final Results: $'
+rps_player_score   db 'Player Wins: $'
+rps_computer_score db 'Computer Wins: $'
+rps_final_winner   db 'The winner is: $'
+rps_draw_msg       db 'The game is a draw$'
+rps_player_msg     db 'Player!$'
+rps_computer_msg   db 'Computer!$'
+rps_round_invalid  db 'Invalid Input. Please select only between (1-9)$'
+rps_comp_choice    db ?
+rps_player_choice  db ?
+
 ;Rock Paper Scissors Rules Data
 
 ;Play Again Data
