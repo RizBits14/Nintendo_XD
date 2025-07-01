@@ -1,4 +1,4 @@
-.model large
+                                               .model large
 .stack 1000h
 
 .data
@@ -54,8 +54,19 @@ wordle_word_array db 'BIRD'
                   db 'COIN'
                   db 'BANK'
                   db 'DAMN'
+wordle_array_size       equ 20
+wordle_target_word      db 4 dup(?)
+wordle_guess            db 5 dup('$')
+wordle_input_prompt     db 'Enter a four letter word: $'
+wordle_correct_msg      db 'Congratulations you have gueesed the word correctly!$'
+wordle_result           db 5 dup('$')
+wordle_rng              dw 0
+wordle_guess_count_msg  db 'The number of guesses it took for you to guessed it correctly is: $'
+wordle_guess_count      db 0
 
 ;Wordle Rules Data
+
+
 
 ;Rock Paper Scissors Game Data
 
