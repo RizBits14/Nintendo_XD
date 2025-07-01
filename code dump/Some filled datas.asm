@@ -102,6 +102,17 @@ rps_player_choice  db ?
 
 ;Rock Paper Scissors Rules Data
 
+rps_rule_msg   db 10,13, '*** Rules of the Game ***$'
+rps_rule_1     db 10,13, 'You will enter your move$'
+rps_rule_2     db 10,13, 'Computer will generate its move$'
+rps_rule_3     db 10,13, 'If your move is stronger than coomputer you will win$'
+rps_rule_4     db 10,13, 'If your move is weaker than computer you will lose$'
+rps_rule_5     db 10,13, 'Else it is a tie$'
+rps_rule_msg_2 db 10,13, '****** POWERS ****** $'
+rps_rule_6     db 10,13, '1. Rock wins against scissors.$'
+rps_rule_7     db 10,13, '2. Scissors win against paper.$'
+rps_rule_8     db 10,13, '3. Paper wins against rock.$'
+
 ;Play Again Data
 
 ;Author Data
