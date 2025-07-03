@@ -126,6 +126,20 @@ exit_msg              db 10,13, 'Thanks for playing Nintendo XD! Have a great da
 
 ;Author Data
 
+author_page_line_1 db 10,13, '                         *********************__________*********************$'
+author_page_line_2 db 10,13, '                         **                  Submitted By                  **$'
+author_page_line_3 db 10,13, '                         **                   Group: 12                    **$'
+author_page_line_4 db 10,13, '                         ----------------------------------------------------$'
+author_page_line_5 db 10,13, '                         |          Name          |            ID           |$'
+author_page_line_6 db 10,13, '                         ----------------------------------------------------$'
+author_page_line_7 db 10,13, '                         |      Tahmid Iqbal      |         21201701        |$'
+author_page_line_8 db 10,13, '                         ----------------------------------------------------$'
+author_page_line_9 db 10,13, '                         |     Rizwanul Islam     |         21201129        |$'
+author_page_line_10 db 10,13, '                         ----------------------------------------------------$'
+author_page_line_11 db 10,13, '                         **                     FALL 24                    **$'
+author_page_line_12 db 10,13, '                         **                                                **$'
+author_page_line_13 db 10,13, '                         *********************__________*********************$'
+
 .code
 
 main proc     
