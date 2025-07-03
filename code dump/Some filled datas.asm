@@ -115,6 +115,15 @@ rps_rule_8     db 10,13, '3. Paper wins against rock.$'
 
 ;Play Again Data
 
+play_again_msg        db 10,13, 'Would You Like To: $'
+play_again_wordle     db 10,13, '1. Play Wordle$'
+play_again_rps        db 10,13, '2. Play Rock Paper Scissors$'
+exit_console          db 10,13, '3. Exit Console$'
+ask_credit            db 10,13, '4. View Credits$'
+play_again_invalid    db 10,13, 'Invalid choice! Please select 1, 2, or 3$'
+play_again_option_msg db 10,13, 'Enter your option: $' 
+exit_msg              db 10,13, 'Thanks for playing Nintendo XD! Have a great day!$'
+
 ;Author Data
 
 .code
