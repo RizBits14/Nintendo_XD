@@ -140,6 +140,18 @@ author_page_line_11 db 10,13, '                         **                     F
 author_page_line_12 db 10,13, '                         **                                                **$'
 author_page_line_13 db 10,13, '                         *********************__________*********************$'
 
+sir_page_line_1 db 10,13, '******_____________******$'
+sir_page_line_2 db 10,13, '**     Submitted To    **$'
+sir_page_line_3 db 10,13, '-------------------------$'
+sir_page_line_4 db 10,13, '|     Waseq Alvi Sir    |$'
+sir_page_line_5 db 10,13, '-------------------------$'
+sir_page_line_6 db 10,13, '|  Labib Hasan Khan Sir |$'
+sir_page_line_7 db 10,13, '-------------------------$'
+sir_page_line_8 db 10,13, '**  Special Thanks to  **$' 
+sir_page_line_9 db 10,13, '-------------------------$'
+sir_page_line_10 db 10,13,'| Raisul Kabir News Sir |$' 
+sir_page_line_11 db 10,13,'******_____________******$' 
+
 .code
 
 main proc     
